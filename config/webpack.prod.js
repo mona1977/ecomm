@@ -1,6 +1,4 @@
-/**
- * webpack config for production env
- */
+
 
 const webpack = require('webpack')
 const path = require('path')

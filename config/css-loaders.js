@@ -1,9 +1,3 @@
-/**
- * Define the style loader separated to use in development.
- * This loader build css styles in a javascript module.
- * @param  {Boolean} development If the env is development
- * @return {Object}              Loader object for webpack
- */
 const getStyleLoader = (development) => (
   {
     loader: 'style-loader',
@@ -13,12 +7,6 @@ const getStyleLoader = (development) => (
   }
 )
 
-/**
- * Define all css loaders.
- * @param  {Boolean}  development       If the env is development
- * @param  {Boolean} includeStyleLoader If has to include style loader
- * @return {Array}                      Array of loaders objects for webpack
- */
 const getAllLoaders = (development, includeStyleLoader = true) => {
   const otherLoaders = [
     {

@@ -1,6 +1,4 @@
-/**
- * PostCSS config for development env
- */
+
 
 const autoprefixer = require('autoprefixer')
 const pxtorem = require('postcss-pxtorem')
