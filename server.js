@@ -41,7 +41,7 @@ function createServer (webpackDevMiddlewareInstance) {
   server.listen(port, host, () => {
     const serverUrl = 'http://' + (host === '0.0.0.0' ? 'localhost' : host) + ':' + port
     console.log()
-    console.log('  ' + chalk.blue('\\{^_^}/ Welcome to the most famous e-commerce: ascii faces!'))
+    console.log('  ' + chalk.blue('\\{^_^}/ ASCII ACCESS CART - SURENDRA GUPTA!'))
     console.log()
     console.log('  ' + chalk.bold('Check it out on your favorite browser:'))
     console.log('  ' + chalk.underline.green(serverUrl))
